@@ -1,0 +1,70 @@
+body{
+    background-color: pink;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.jk{
+    display: flex;
+}
+
+.father{
+    margin: 0 auto;
+    width: 1400px;
+    
+    gap: 30px;
+}
+.wrap{
+    width: 320px;
+    height: 300px;
+    background-color: rgb(148, 3, 131);
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.end{
+  flex-direction: column;
+}
+
+
+.flex{
+    justify-content:flex-end;
+}
+
+.align{
+    align-items: flex-end;
+}
+
+.sd{
+    flex-wrap: wrap;
+}
+
+.center{
+    justify-content: center;
+}
+
+.cnet{
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.kvadrat{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: orangered;
+}
+
